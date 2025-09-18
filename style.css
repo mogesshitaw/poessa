@@ -1,0 +1,61 @@
+
+
+.text1:hover{
+    border-bottom: 3px solid blue;
+    }
+    .text1{
+      text-transform: capitalize;
+    }
+     
+    .dropdown .dropdown-menu{
+      display: none;
+       
+    }
+    .dropdown:hover > .dropdown-menu,
+  .dropend:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+  }
+  .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 9px;
+    left: 100%;
+  }
+  .input{
+    border-style: none;
+    margin:auto ;
+    height: 30px;
+    
+  }
+  .search{
+    margin:auto ;
+    height: 30px;
+  }
+  .drop{
+    width: 200px;
+  }
+  
+  .input-group {
+    margin-top:20px;
+    border-radius: 10px;
+  }
+  
+  a.text{
+    margin: 0 15px;
+    
+    }
+    a.text:hover{
+    background-color:rgb(39, 179, 97);
+    border-radius: 10px;
+    margin: 0 15px;
+    }
+    .title{
+        text-align: center;
+      }
+      .see{
+        position: absolute;;
+        left: 40%;text-transform: capitalize;
+        
+      }
+      
